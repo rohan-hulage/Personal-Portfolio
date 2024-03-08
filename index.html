@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    <header>
+        <hr style="margin: 0;"/>
+        <nav>
+            <div class="left">Abhishek.dev</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skillss">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr style="margin: 0;"/>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+         
+            
+            <div class="rightSection">
+                <img src="images/img.png" alt="img">
+            </div>
+
+            <div class="leftSection">Hello, I am Abhishek Hulage
+                <br>
+                <span id="element"></span>
+
+
+                <a href="https://drive.google.com/file/d/1OYi9ATA5q7ohUsFrO0GoVX9mgEneKNsP/view?usp=drive_link" target="_blank" download>
+                <button>
+                    Download Resume
+                </button>
+            </a>
+            </div>
+            
+        </section>
+
+        <hr/>
+
+        <section class="secodSection" id="about">
+            <h1>Experience</h1>
+            <div class="flexbox-div">
+                <div class="intern-1">
+                    <h3>Software Engineer Intern</h3>
+                    <div>Persistent Systems</div>
+                    <div class="skills-1"><span>Key Skills: </span> Java, JavaScript, HTML, CSS, MySQL, Spring Boot, SDLC, JUnit, Git, Github</div>
+                    <p>Successfully completed internship at Persistent Systems as a Software Engineer, gaining hands-on experience in
+                        developing software solutions.</p>
+                </div>
+                <div class="intern-2">
+                    <h3>Web Developer Intern</h3>
+                    <div>LetsGrowMore</div>
+                    <div class="skills-2"><span>Key Skills: </span> JavaScript, HTML, CSS</div>
+                    <p>Completed internship at LetsGrowMore as a Web Developer, gaining practical experience in designing and developing
+                        dynamic web applications.</p>
+                </div>
+            </div>
+        </section>
+        <hr/>
+
+       <section class="thirdSection" id="skillss">
+            <h1>Skills</h1>
+            <div class="thirdSection-grid">
+                <div class="skills">Java</div>
+                <div class="skills">JavaScript</div>
+                <div class="skills">HTML</div>
+                <div class="skills">CSS</div>
+                <div class="skills">MySQL</div>
+                <div class="skills">Spring Boot</div>
+                <div class="skills">SDLC</div>
+                <div class="skills">JUnit</div>
+                <div class="skills">Git</div>
+                <div class="skills">Github</div>
+                <div class="skills">React</div>
+                <div class="skills">Node.js</div>
+            </div>    
+            
+        </section>   
+        <hr/> 
+
+        <section class="fourthSection" id="projects">
+            <h1>Projects</h1>
+            <div class="flexbox-div">
+                <div class="project-1">
+                    <h3>Bank Account Management System</h3>
+                    <div class="skills-1"><span>Key Skills: </span> MySQL, Spring Boot</div>
+                    <ul><li>- Developed a back-end API to add endpoints to credit or debit, to see customer’s data.</li>
+                     <li>- Learned how to use Spring Boot in conjunction with back-end databases and APIs.</li>
+                     <ul>
+                </div>
+                <div class="project-2">
+                    <h3>Personal Portfolio</h3>
+                    <div class="skills-2"><span>Key Skills: </span> JavaScript, HTML, CSS</div>
+                    <ul>
+                    <li>- Developed a responsive web application to display my Skills, Projects, and Experiences.</li>
+                    <li>- Experimented with web technologies like HTML, CSS and JavaScript.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr/>
+
+        <section class="sixthSection" id="contact">
+            <h1>Contact</h1>
+           <a href="https://mail.google.com/mail/u/0/?hl=en_GB#inbox?compose=new"><img src="images/gmail.png" alt="gmail"></a>
+           <a href="https://github.com/rohan-hulage"><img src="images/github.webp" alt="github"></a>
+           <a href="https://www.linkedin.com/in/abhishek-hulage-77a643222/"><img src="images/linkedin-logo_578229-227.avif" alt="linkedin"></a>
+           <h2>Get In Touch</h2> 
+
+           <form  id="contact-form">
+            <div class="details">
+        
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            
+                <p>Message</p>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your messagee here..."></textarea>
+            
+            <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+        <hr/>
+
+        <footer>
+            <div class="footer">
+                <div class="footer-left">
+                <p>Made with <span style="font-size:100%;color:red;">&hearts;</span> by Abhishek Hulage</p>
+    
+                    
+                    
+        </footer>            
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Motivated Engineer', 'Developer'],
+          typeSpeed: 100,
+        });
+
+        
+
+
+
+      </script>
+      <script src="app.js"></script>
+</body>
+</html>
