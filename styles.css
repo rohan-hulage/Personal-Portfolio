@@ -265,9 +265,7 @@ hr{
     font-size: 1.5rem;
 
 }
-.sixthSection h1{
-    font-family: poppins;
-}
+
 input, textarea {
     padding: 10px 5px;
     border: 2px solid #473fe3;
@@ -275,9 +273,6 @@ input, textarea {
     
 }
 
-#contact-form p{
-    margin-top: 20px;
-}
 
 textarea {
     margin: 0;
