@@ -246,6 +246,12 @@ hr{
     margin: 0 20px;
 }
 
+.contactLeftSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .contact-flexbox{
     display: flex;
     flex-direction: row;
@@ -253,11 +259,6 @@ hr{
 
 }
 
-.contactLeftSection{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
 .footer{
     display: flex;
