@@ -255,7 +255,7 @@ hr{
 .contact-flexbox{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-around;
 
 }
 
