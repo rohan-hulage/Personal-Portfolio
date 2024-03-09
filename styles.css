@@ -265,9 +265,8 @@ hr{
     font-size: 1.5rem;
 
 }
-.sixthSection h2{
+.sixthSection h1{
     font-family: poppins;
-    margin-top: 60px;
 }
 input, textarea {
     padding: 10px 5px;
