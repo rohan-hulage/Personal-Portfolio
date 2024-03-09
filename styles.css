@@ -246,10 +246,6 @@ hr{
     justify-content: space-around;
 }
 
-.contact-flexbox{
-    display: flex;
-}
-
 
 .footer{
     display: flex;
