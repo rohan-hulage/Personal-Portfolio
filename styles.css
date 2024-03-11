@@ -227,7 +227,12 @@ hr{
     margin-right: 2px;
 }
 
-
+.sixthSection{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
 .sixthSection h1{
     font-size: 2rem;
     margin-bottom: 40px;
