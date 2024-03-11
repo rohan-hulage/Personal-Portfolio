@@ -245,6 +245,11 @@ hr{
     margin: 0 20px;
 }
 
+.contact-flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+
 .contactLeftSection{
     display: flex;
     flex-direction: column;
