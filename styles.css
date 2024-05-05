@@ -227,11 +227,7 @@ hr{
     margin-right: 2px;
 }
 
-.sixthSection{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
+
 .sixthSection h1{
     font-size: 2rem;
     margin-bottom: 40px;
@@ -243,7 +239,6 @@ hr{
     width: 50px;
     margin: 0 20px;
 }
-
 
 .contact-flexbox{
     display: flex;
